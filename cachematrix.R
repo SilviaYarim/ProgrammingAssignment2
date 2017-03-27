@@ -37,17 +37,5 @@ cacheSolve <- function(x,...){
         
 }
     
-spematrix<- makeCacheMatrix(matrix(1:4,2,2))
-> spematrix$getinv()
-NULL
-> cacheSolve(spematrix)
-     [,1] [,2]
-[1,]   -2  1.5
-[2,]    1 -0.5
-> cacheSolve(spematrix)
-getting cached data
-     [,1] [,2]
-[1,]   -2  1.5
-[2,]    1 -0.5
-                
+
                 
